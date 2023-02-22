@@ -13,4 +13,4 @@ if( anni < 18 ) {
     totale.toPrecision(3);
 }
 
-document.writeln(totale);
+document.writeln( ` Grazie mille per averci fornito le informazioni da noi richieste per poter erogare il nostro servizio. In base ai nostri calcoli, ci risulta che dati i suoi ${anni} anni e l'itinerario che conta ${distanza} Chilometri, le annunciamo che ha diritto ad un biglietto che ammonta a ${totale.toPrecision(3)} euro di prezzo.`);

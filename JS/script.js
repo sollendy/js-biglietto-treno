@@ -10,6 +10,7 @@ if( anni < 18 ) {
 } else if( anni > 65 ) {
     sconto = (prezzo / 100) * 40;
     totale = prezzo - sconto;
+    totale.toPrecision(3);
 }
 
 document.writeln(totale);
